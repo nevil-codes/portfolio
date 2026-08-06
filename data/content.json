@@ -28,11 +28,11 @@
   },
   "projects": [
     {
-      "name": "Deutsche Bahn Train Delay Analysis",
+      "name": "Weather App CLI",
       "lang": "Python",
-      "desc": "Analyzed German rail delay data: cleaning, aggregation, and statistical analysis of delay patterns by route and time of day, with visualizations of key findings.",
-      "meta": "data analysis project",
-      "url": "https://github.com/nevil-codes/db-delay-analysis"
+      "desc": "A simple command-line weather application that provides current weather conditions and 5-day forecasts for any location worldwide.",
+      "meta": "An API Test Project",
+      "url": "https://github.com/nevil-codes/Weather-App"
     },
     {
       "name": "QLess",
