@@ -30,8 +30,7 @@
     {
       "name": "PDFragen",
       "lang": "Python",
-      "desc": "A RAG (Retrieval-Augmented Generation) chatbot for international students in Germany. Upload a German-language document — a Studienbüro or Ausländerbehörde letter, lecture notes, whatever — ask questions about it in English or German, and get answers grounded in the document with citations back to the source pages",
-      "meta": "A RAG chatbot for international students in Germany",
+      "desc": "A RAG (question-answering) system that extracts answers from PDF documents using Ollama and LangChain.",
       "url": "https://github.com/nevil-codes/PDFragen"
     },
     {
