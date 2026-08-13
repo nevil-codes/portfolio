@@ -28,11 +28,11 @@
   },
   "projects": [
     {
-      "name": "Weather App CLI",
+      "name": "PDFragen",
       "lang": "Python",
-      "desc": "A simple command-line weather application that provides current weather conditions and 5-day forecasts for any location worldwide.",
-      "meta": "An API Test Project",
-      "url": "https://github.com/nevil-codes/Weather-App"
+      "desc": "A RAG (Retrieval-Augmented Generation) chatbot for international students in Germany. Upload a German-language document — a Studienbüro or Ausländerbehörde letter, lecture notes, whatever — ask questions about it in English or German, and get answers grounded in the document with citations back to the source pages",
+      "meta": "A RAG chatbot for international students in Germany",
+      "url": "https://github.com/nevil-codes/PDFragen"
     },
     {
       "name": "QLess",
