@@ -49,7 +49,7 @@
     }
   ],
   "stack": [
-    { "label": "languages", "items": ["Python (pandas, NumPy)", "Java (Android)", "SQL"] },
+    { "label": "languages", "items": ["Python (pandas, NumPy)", "Java (Android)", "SQL", "postgreSQL"] },
     { "label": "tools", "items": ["Git / GitHub", "Firebase", "LaTeX", "Excel", "VS Code"] },
     { "label": "currently learning", "items": ["SQL", "Docker", "Cloud fundamentals"] }
   ],
