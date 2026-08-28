@@ -1,17 +1,19 @@
-import { education, about } from "@/lib/content";
+import { education, about, sections } from "@/lib/content";
+
+const s = sections.about;
 
 export default function About() {
   return (
     <section id="about" className="py-24 md:py-[88px] border-b border-border">
-      <div className="font-mono text-[13px] text-amber mb-3">03 / about</div>
+      <div className="font-mono text-[13px] text-amber mb-3">{s.number} / {s.label}</div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         <div>
-          <h2 className="m-0 mb-5 text-[34px] font-semibold tracking-tight">About</h2>
+          <h2 className="m-0 mb-5 text-[34px] font-semibold tracking-tight">{s.title}</h2>
           <p className="m-0 text-base leading-[1.7] text-muted">{about.text}</p>
         </div>
         <div>
           <h3 className="m-0 mb-5 font-mono text-sm font-medium text-dim uppercase tracking-wider">
-            Education
+            {s.educationTitle}
           </h3>
           <div className="flex flex-col gap-5">
             {education.map((e) => (

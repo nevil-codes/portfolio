@@ -6,6 +6,39 @@
     "title": "Nevil Amraniya",
     "description": "Computer Science student focused on data analysis and Java/Android development, seeking a Werkstudent position in IT, data, or software development."
   },
+  "sections": {
+    "work": {
+      "number": "01",
+      "label": "work",
+      "title": "Selected projects"
+    },
+    "stack": {
+      "number": "03",
+      "label": "stack",
+      "title": "Technologies"
+    },
+    "about": {
+      "number": "04",
+      "label": "about",
+      "title": "About",
+      "educationTitle": "Education"
+    },
+    "certifications": {
+      "number": "05",
+      "label": "certifications",
+      "title": "Certifications"
+    },
+    "writing": {
+      "number": "06",
+      "label": "writing",
+      "title": "Writing"
+    },
+    "contact": {
+      "number": "07",
+      "label": "contact",
+      "title": "Let's talk."
+    }
+  },
   "social": {
     "github": "https://github.com/nevil-codes",
     "linkedin": "https://www.linkedin.com/in/nevil-amraniya",
@@ -48,10 +81,69 @@
       "url": "https://github.com/nevil-codes/evertrack"
     }
   ],
+  "now": {
+    "eyebrow": "// currently",
+    "sectionNumber": "02",
+    "sectionLabel": "now",
+    "title": "What I'm doing",
+    "items": [
+      {
+        "title": "Building MLOps skills",
+        "description": "Currently learning Docker, FastAPI, and MLflow — containerizing and serving my existing projects as deployable services.",
+        "stack": [
+          "Docker",
+          "FastAPI",
+          "MLflow"
+        ],
+        "link": null
+      },
+      {
+        "title": "PDFragen",
+        "description": "A RAG question-answering system for German documents, running fully local to avoid API costs.",
+        "stack": [
+          "LangChain",
+          "ChromaDB",
+          "Ollama",
+          "sentence-transformers"
+        ],
+        "link": "https://github.com/nevil-codes/PDFragen"
+      },
+      {
+        "title": "Job hunting",
+        "description": "Actively looking for a Werkstudent role in Data/IT/Software Development in the Rhine-Ruhr region while finishing my B.Sc.",
+        "stack": [],
+        "link": null
+      }
+    ]
+  },
   "stack": [
-    { "label": "languages", "items": ["Python (pandas, NumPy)", "Java (Android)", "SQL", "postgreSQL"] },
-    { "label": "tools", "items": ["Git / GitHub", "Firebase", "LaTeX", "Excel", "VS Code"] },
-    { "label": "currently learning", "items": ["SQL", "Docker", "Cloud fundamentals"] }
+    {
+      "label": "languages",
+      "items": [
+        "Python (pandas, NumPy)",
+        "Java (Android)",
+        "SQL",
+        "postgreSQL"
+      ]
+    },
+    {
+      "label": "tools",
+      "items": [
+        "Git / GitHub",
+        "Firebase",
+        "LaTeX",
+        "Excel",
+        "VS Code"
+      ]
+    },
+    {
+      "label": "currently learning",
+      "items": [
+        "SQL",
+        "Docker",
+        "Cloud fundamentals"
+      ]
+    }
   ],
   "education": [
     {

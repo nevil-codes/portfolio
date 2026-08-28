@@ -1,12 +1,14 @@
-import { certifications } from "@/lib/content";
+import { certifications, sections } from "@/lib/content";
+
+const s = sections.certifications;
 
 export default function Certifications() {
   if (!certifications?.length) return null;
 
   return (
     <section id="certifications" className="py-24 md:py-[88px] border-b border-border">
-      <div className="font-mono text-[13px] text-amber mb-3">04 / certifications</div>
-      <h2 className="m-0 mb-10 text-[34px] font-semibold tracking-tight">Certifications</h2>
+      <div className="font-mono text-[13px] text-amber mb-3">{s.number} / {s.label}</div>
+      <h2 className="m-0 mb-10 text-[34px] font-semibold tracking-tight">{s.title}</h2>
       <div className="flex flex-col gap-4">
         {certifications.map((c) => (
           <a

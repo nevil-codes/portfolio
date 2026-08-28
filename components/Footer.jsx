@@ -1,4 +1,6 @@
-import { social, site } from "@/lib/content";
+import { social, site, sections } from "@/lib/content";
+
+const s = sections.contact;
 
 const links = [
   { href: social.github, label: "github" },
@@ -10,8 +12,8 @@ const links = [
 export default function Footer() {
   return (
     <footer id="contact" className="pt-24 md:pt-[88px] pb-16">
-      <div className="font-mono text-[13px] text-amber mb-3">06 / contact</div>
-      <h2 className="m-0 mb-6 text-[32px] sm:text-[38px] md:text-[44px] font-semibold tracking-tight">Let&apos;s talk.</h2>
+      <div className="font-mono text-[13px] text-amber mb-3">{s.number} / {s.label}</div>
+      <h2 className="m-0 mb-6 text-[32px] sm:text-[38px] md:text-[44px] font-semibold tracking-tight">{s.title}</h2>
       <a
         href={`mailto:${social.email}`}
         className="font-mono text-lg text-amber no-underline hover:underline"

@@ -1,10 +1,12 @@
-import { projects, social } from "@/lib/content";
+import { projects, social, sections } from "@/lib/content";
+
+const s = sections.work;
 
 export default function Projects() {
   return (
     <section id="work" className="py-24 md:py-[88px] border-b border-border">
-      <div className="font-mono text-[13px] text-amber mb-3">01 / work</div>
-      <h2 className="m-0 mb-10 text-[34px] font-semibold tracking-tight">Selected projects</h2>
+      <div className="font-mono text-[13px] text-amber mb-3">{s.number} / {s.label}</div>
+      <h2 className="m-0 mb-10 text-[34px] font-semibold tracking-tight">{s.title}</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((p) => (
           <a

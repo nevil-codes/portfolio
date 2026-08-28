@@ -5,6 +5,7 @@ import { resumeUrl, site } from "@/lib/content";
 
 const links = [
   { href: "#work", label: "Work" },
+  { href: "#now", label: "Now" },
   { href: "#stack", label: "Stack" },
   { href: "#about", label: "About" },
   { href: "#certifications", label: "Certifications" },
