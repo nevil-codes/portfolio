@@ -50,7 +50,7 @@
   "hero": {
     "kicker": "// CS student & data enthusiast",
     "heading": "Nevil Amraniya",
-    "intro": "Computer Science student building with Python and Java — data analysis, Android apps, personal projects end to end. Currently looking for a Werkstudent role in IT, data, or software development in the Rhine-Ruhr region."
+    "intro": "Computer Science student building with Python, Java and Power BI — data analysis, dashboards, Android apps, personal projects end to end. Currently looking for a Werkstudent role in IT, data, or software development in the Rhine-Ruhr region."
   },
   "about": {
     "text": "Computer Science student (B.Sc., FOM Hochschule Essen) focused on data analysis and AI application development. I like turning messy datasets into clear insights and shipping small end-to-end projects — from Android apps to data pipelines."
@@ -65,6 +65,13 @@
       "lang": "Python",
       "desc": "A RAG (question-answering) system that extracts answers from PDF documents using Ollama and LangChain.",
       "url": "https://github.com/nevil-codes/PDFragen"
+    },
+    {
+      "name": "Delivery KPI Dashboard",
+      "lang": "Power BI",
+      "desc": "KPI dashboard on 4 months of my own delivery data, tracking orders per hour against a bonus target, with net pay after deductions and a weekday analysis.",
+      "meta": "power bi & dax dashboard",
+      "url": "https://github.com/nevil-codes/delivery-kpi-dashboard-powerbi"
     },
     {
       "name": "QLess",
@@ -122,25 +129,26 @@
       "items": [
         "Python (pandas, NumPy)",
         "Java (Android)",
-        "SQL",
-        "postgreSQL"
+        "SQL (PostgreSQL)",
+        "DAX"
       ]
     },
     {
       "label": "tools",
       "items": [
+        "Power BI (Power Query, data modeling)",
         "Git / GitHub",
         "Firebase",
-        "LaTeX",
         "Excel",
+        "LaTeX",
         "VS Code"
       ]
     },
     {
       "label": "currently learning",
       "items": [
-        "SQL",
         "Docker",
+        "FastAPI",
         "Cloud fundamentals"
       ]
     }
