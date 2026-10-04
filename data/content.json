@@ -64,7 +64,8 @@
       "name": "PDFragen",
       "lang": "Python",
       "desc": "A RAG (question-answering) system that extracts answers from PDF documents using Ollama and LangChain.",
-      "url": "https://github.com/nevil-codes/PDFragen"
+      "url": "https://github.com/nevil-codes/PDFragen",
+      "meta": "local rag pipeline"
     },
     {
       "name": "Delivery KPI Dashboard",
@@ -129,7 +130,7 @@
       "items": [
         "Python (pandas, NumPy)",
         "Java (Android)",
-        "SQL (PostgreSQL)",
+        "SQL (PostgreSQL, SQLite)",
         "DAX"
       ]
     },
@@ -145,10 +146,21 @@
       ]
     },
     {
+      "label": "ai & data apps",
+      "items": [
+        "LangChain",
+        "Ollama",
+        "ChromaDB",
+        "Streamlit",
+        "Plotly"
+      ]
+    },
+    {
       "label": "currently learning",
       "items": [
         "Docker",
         "FastAPI",
+        "MLflow",
         "Cloud fundamentals"
       ]
     }
