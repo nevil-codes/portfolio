@@ -3,40 +3,46 @@
     "name": "Nevil Amraniya",
     "domain": "NevilAmraniya",
     "domainTld": "de",
+    "url": "https://nevilamraniya.de",
     "title": "Nevil Amraniya",
-    "description": "Computer Science student focused on data analysis and Java/Android development, seeking a Werkstudent position in IT, data, or software development."
+    "role": "CS student & data enthusiast",
+    "description": "Computer Science student focused on data analysis and Java/Android development, seeking a Werkstudent position in IT, data, or software development.",
+    "timeZone": "Europe/Berlin"
   },
   "sections": {
     "work": {
-      "number": "01",
       "label": "work",
-      "title": "Selected projects"
+      "title": "Selected projects",
+      "intro": "A few things I've built end to end — from a local RAG pipeline to a Power BI dashboard on my own delivery data."
+    },
+    "now": {
+      "label": "now",
+      "title": "What I'm doing",
+      "intro": "What I'm focused on right now."
     },
     "stack": {
-      "number": "03",
       "label": "stack",
-      "title": "Technologies"
+      "title": "Technologies",
+      "intro": "The tools I reach for — and what I'm learning next."
     },
     "about": {
-      "number": "04",
       "label": "about",
       "title": "About",
       "educationTitle": "Education"
     },
     "certifications": {
-      "number": "05",
       "label": "certifications",
-      "title": "Certifications"
+      "title": "Certifications",
+      "intro": "Courses I've completed, each with a link to verify it."
     },
     "writing": {
-      "number": "06",
       "label": "writing",
       "title": "Writing"
     },
     "contact": {
-      "number": "07",
       "label": "contact",
-      "title": "Let's talk."
+      "title": "Let's talk.",
+      "text": "I'm looking for a Werkstudent role in IT, data, or software development in the Rhine-Ruhr region. Email is the fastest way to reach me."
     }
   },
   "social": {
@@ -50,7 +56,16 @@
   "hero": {
     "kicker": "// CS student & data enthusiast",
     "heading": "Nevil Amraniya",
-    "intro": "Computer Science student building with Python, Java and Power BI — data analysis, dashboards, Android apps, personal projects end to end. Currently looking for a Werkstudent role in IT, data, or software development in the Rhine-Ruhr region."
+    "tagline": "Turning *messy data* into *clear insights*.",
+    "intro": "Computer Science student building with Python, Java and Power BI — data analysis, dashboards, Android apps, personal projects end to end. Currently looking for a Werkstudent role in IT, data, or software development in the Rhine-Ruhr region.",
+    "status": "Open to Werkstudent roles",
+    "profile": {
+      "role": "CS student, B.Sc.",
+      "focus": "data & AI apps",
+      "stack": "Python · SQL · Power BI",
+      "based_in": "Essen, DE",
+      "open_to": "Werkstudent"
+    }
   },
   "about": {
     "text": "Computer Science student (B.Sc., FOM Hochschule Essen) focused on data analysis and AI application development. I like turning messy datasets into clear insights and shipping small end-to-end projects — from Android apps to data pipelines."
@@ -65,38 +80,52 @@
       "lang": "Python",
       "desc": "A RAG (question-answering) system that extracts answers from PDF documents using Ollama and LangChain.",
       "url": "https://github.com/nevil-codes/PDFragen",
-      "meta": "local rag pipeline"
+      "meta": "local rag pipeline",
+      "visual": "pipeline",
+      "stack": [
+        "LangChain",
+        "Ollama",
+        "ChromaDB",
+        "sentence-transformers"
+      ]
     },
     {
       "name": "Delivery KPI Dashboard",
       "lang": "Power BI",
       "desc": "KPI dashboard on 4 months of my own delivery data, tracking orders per hour against a bonus target, with net pay after deductions and a weekday analysis.",
       "meta": "power bi & dax dashboard",
-      "url": "https://github.com/nevil-codes/delivery-kpi-dashboard-powerbi"
+      "url": "https://github.com/nevil-codes/delivery-kpi-dashboard-powerbi",
+      "visual": "chart",
+      "stack": [
+        "DAX"
+      ]
     },
     {
       "name": "QLess",
       "lang": "Java / Android",
       "desc": "Android app enabling users to compare product prices across stores, reserve items, and collect in person; real-time data sync via Firebase.",
       "meta": "smart price comparison app",
-      "url": "https://github.com/nevil-codes/qless"
+      "url": "https://github.com/nevil-codes/qless",
+      "visual": "phone",
+      "stack": [
+        "Firebase"
+      ]
     },
     {
       "name": "EverTrack",
       "lang": "Python",
       "desc": "Tracks daily habits and personal expenses with structured data storage and summary reporting.",
       "meta": "habit & expense tracker",
-      "url": "https://github.com/nevil-codes/evertrack"
+      "url": "https://github.com/nevil-codes/evertrack",
+      "visual": "heatmap",
+      "stack": []
     }
   ],
   "now": {
-    "eyebrow": "// currently",
-    "sectionNumber": "02",
-    "sectionLabel": "now",
-    "title": "What I'm doing",
     "items": [
       {
         "title": "Building MLOps skills",
+        "tag": "learning",
         "description": "Currently learning Docker, FastAPI, and MLflow — containerizing and serving my existing projects as deployable services.",
         "stack": [
           "Docker",
@@ -107,6 +136,7 @@
       },
       {
         "title": "PDFragen",
+        "tag": "building",
         "description": "A RAG question-answering system for German documents, running fully local to avoid API costs.",
         "stack": [
           "LangChain",
@@ -118,6 +148,7 @@
       },
       {
         "title": "Job hunting",
+        "tag": "looking",
         "description": "Actively looking for a Werkstudent role in Data/IT/Software Development in the Rhine-Ruhr region while finishing my B.Sc.",
         "stack": [],
         "link": null
@@ -157,6 +188,7 @@
     },
     {
       "label": "currently learning",
+      "learning": true,
       "items": [
         "Docker",
         "FastAPI",
@@ -169,12 +201,14 @@
     {
       "degree": "B.Sc. Computer Science & Digital Technologies",
       "school": "FOM Hochschule für Oekonomie & Management — Essen, Germany",
-      "years": "2025 – 2028 (expected)"
+      "years": "2025 – 2028 (expected)",
+      "coords": [51.4556, 7.0116]
     },
     {
       "degree": "Diploma in Computer Engineering",
       "school": "Government Polytechnic Jamnagar — Jamnagar, India",
-      "years": "2019 – 2023"
+      "years": "2019 – 2023",
+      "coords": [22.4707, 70.0577]
     }
   ],
   "certifications": [
@@ -186,12 +220,12 @@
     },
     {
       "name": "Pandas",
-      "issuer": "kaggle",
+      "issuer": "Kaggle",
       "year": "2026",
       "verifyUrl": "https://www.kaggle.com/learn/certification/nickneverfails/pandas"
     }
   ],
   "writing": {
-    "emptyNote": "// nothing here yet — posts coming soon"
+    "posts": []
   }
 }
